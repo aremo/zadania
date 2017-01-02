@@ -1,7 +1,5 @@
 public class Logic {
 
-    // bo to metoda i tutaj wysylasz obiekt ktory juz istnieje
-    // i masz dostep do jego zmiennych lokalnie w tej metodzie
     public boolean isRightTriangle(Triangle triangle) {
 
         double angleSum = triangle.alphaAngle + triangle.betaAngle + triangle.gammaAngle;
