@@ -1,15 +1,12 @@
-public class Square
-{
+public class Square {
     double dLength;
     double dArea;
 
-    public Square (double dLengthIn)
-    {
+    public Square(double dLengthIn) {
         dLength = dLengthIn;
     }
 
-    public void CalculateArea()
-    {
+    public void CalculateArea() {
         ShapeCalculator shapeCalc = new ShapeCalculator();
         dArea = shapeCalc.CalcSquareArea(this);
 

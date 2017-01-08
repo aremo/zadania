@@ -3,6 +3,6 @@
  */
 public class TestoweZadanie {
     public static void main(String[] args) {
-        
+
     }
 }

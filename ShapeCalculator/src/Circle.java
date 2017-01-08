@@ -1,15 +1,12 @@
-public class Circle
-{
+public class Circle {
     double dRadius;
     double dArea;
 
-    public Circle(double dRadiusIn)
-    {
+    public Circle(double dRadiusIn) {
         dRadius = dRadiusIn;
     }
 
-    public void CalculateArea()
-    {
+    public void CalculateArea() {
         ShapeCalculator shapeCalc = new ShapeCalculator();
         dArea = shapeCalc.CalcCircleArea(this);
 

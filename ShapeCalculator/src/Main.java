@@ -1,7 +1,5 @@
-public class Main
-{
-    public static void main(String[]args)
-    {
+public class Main {
+    public static void main(String[] args) {
         Square mySquare = new Square(10);
         mySquare.CalculateArea();
         System.out.println(mySquare.dArea);
@@ -10,7 +8,7 @@ public class Main
         myRectangle.CalculatePerimeter();
         System.out.println(myRectangle.dPerimeter);
 
-        Triangle myTriangle = new Triangle (1,2,3);
+        Triangle myTriangle = new Triangle(1, 2, 3);
         myTriangle.CalculatePerimeter();
         System.out.println(myTriangle.dPerimeter);
 
