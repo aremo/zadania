@@ -22,7 +22,7 @@ public class Zad6 {
                 liczba = input.nextInt();
             }
         }
-        
+
 //        System.out.println("Podana liczba jest OK");
 
         input.close();

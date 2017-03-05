@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Przykład Tymeleaf</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h2>Dodawanie produktu</h2>
+
+<a href="/products/add">Dodaj nowy produkt</a><br/><br/>
+
+<form action="#" th:action="@{/products/add}" th:object="${product}" method="post">
+    Nazwa: <input type="text" th:field="*{name}" /> <br/>
+    Cena: <input type="text" th:field="*{price}" /><br/><br/>
+    <input type="submit" value="Dodaj" />
+</form>
+
+</body>
+</html>
